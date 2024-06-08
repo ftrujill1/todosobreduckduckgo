@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página web sobre el motor de búsqueda: Duck Duck Go">
+    <title>DuckDuckGo</title>
+    <link rel="stylesheet" href="duck1.css">
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #ff0000;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            align-items: center; /* Centra verticalmente los elementos en el header */
+        }
+
+        h1 {
+            color: #fff;
+            margin: 0;
+            font-size: 24px; /* Tamaño del texto del encabezado */
+            flex-grow: 1; /* Hace que el título ocupe todo el espacio restante */
+        }
+
+        .logo {
+            margin-right: 20px; /* Espacio entre el logo y el título */
+            width: 100px; /* Ancho del logo */
+        }
+
+        .navbar {
+            background-color: #ff0000; /* Mismo color que el header */
+            overflow: hidden;
+        }
+
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            padding: 10px 20px;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: justify;
+            display: none; /* Por defecto, ocultamos todas las secciones */
+        }
+
+        section.active {
+            display: block; /* Mostramos la sección activa */
+        }
+
+        section p {
+            margin-bottom: 20px; /* Espacio entre párrafos */
+        }
+
+        footer {
+            background-color: #2ecc71; /* Color más acorde a la estética de la página */
+            padding: 10px;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://d15shllkswkct0.cloudfront.net/wp-content/blogs.dir/1/files/2013/06/circleduckshades.png" alt="Logo de DuckDuckGo" class="logo">
+        <h1>El motor de búsqueda sin rastreador: Duck Duck Go</h1>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#SobreNosotros">Sobre nosotros</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Inicio" class="active">
+        <h2>¡Bienvenido/a!</h2>
+        <h2>¿Qué es Duck Duck Go?</h2>
+        <p>DuckDuckGo se distingue como un motor de búsqueda híbrido que amalgama información proveniente de fuentes públicas, como Wikipedia, y se apoya en la API de motores de búsqueda de envergadura como Yahoo! y Google. A diferencia de otros buscadores, DuckDuckGo emplea su propio rastreador, que preserva la privacidad del usuario al no almacenar su información. Este enfoque se traduce en resultados de búsqueda consistentes para cualquier individuo que realice la misma consulta.</p>
+        <p>La política de no retener información del usuario implica que DuckDuckGo no recopila ni comparte datos de aquellos que utilizan el motor de búsqueda. Además, la publicidad que presenta, aunque no es personalizada, desempeña un papel crucial en la financiación continua del servicio.</p>
+        <p>Al no guardar la información del usuario, el buscador DuckDuckGo no recopila ni comparte los datos de las personas que lo utilizan. Además, la publicidad que muestran no es personalizada, sin embargo, esta va destinada a financiar el buscador.</p>
+        <h2>¡Descubre las ventajas que ofrece Duck Duck Go!</h2>
+    </section>
+    <section id="SobreNosotros">
+        <h2>Sobre Mí</h2>
+        <p>Soy una estudiante de la Facultad de Documentación y curso la asignatura de <strong>Búsqueda y Posicionamiento en Internet</strong> de la Universidad. Mi pasión por la tecnología y el mundo digital me ha llevado a explorar y comprender los complejos entresijos del universo de la búsqueda en línea.</p>
+        
+        <h3>Mi Misión</h3>
+        <p>Mi misión es entender y aplicar los principios fundamentales del <strong>SEO</strong> (Search Engine Optimization) y la <strong>SEM</strong> (Search Engine Marketing) para maximizar la visibilidad en línea y mejorar el posicionamiento de sitios web en los motores de búsqueda. Me esfuerzo por adquirir conocimientos sólidos sobre cómo los algoritmos de los motores de búsqueda funcionan y cómo puedo utilizar estrategias efectivas para obtener resultados óptimos.</p>
+        
+        <h3>Mi Compromiso</h3>
+        <p>Estoy comprometido con aprender y aplicar las últimas técnicas y tendencias en marketing digital para impulsar el éxito en línea. A través de la investigación, el análisis y la experimentación, busco mejorar continuamente mis habilidades y conocimientos en el campo del SEO y la SEM.</p>
+        
+        <h3>Mi Visión</h3>
+        <p>Mi visión es convertirme en un profesional capacitado y competente en el ámbito del marketing digital y la optimización de motores de búsqueda. Busco aplicar mis conocimientos para ayudar a empresas y organizaciones a alcanzar sus objetivos en línea y destacarse en un mercado cada vez más competitivo.</p>
+        
+        <p>¡Gracias por visitar mi página y ser parte de mi viaje hacia el dominio de la búsqueda y el posicionamiento en Internet!</p>
+    </section>
+    
+    
+    <section id="Contacto" class="contact-section">
+        <h2>Contacto</h2>
+        <div class="contact-content">
+            <p>¿Quieres contactarnos? ¡Envíanos un correo a <a href="mailto:ftrujill@ucm.es">ftrujill@ucm.es</a>!</p>
+            <div class="contact-image">
+                <img src="https://documentacion.ucm.es/file/_mg_0407-2/?ver" alt="Documentación UCM">
+            </div>
+            <p>Visítanos en la Facultad de Documentación de la Universidad Complutense de Madrid</p>
+        </div>
+    </section>
+    
+    
+    <footer>
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+    <script>
+        // JavaScript para manejar el cambio de secciones al hacer clic en los enlaces de la barra de navegación
+        document.querySelectorAll('.navbar a').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); // Evita el comportamiento predeterminado del enlace
+                const sectionId = this.getAttribute('href').substring(1); // Obtén el ID de la sección a mostrar
+                document.querySelectorAll('section').forEach(section => {
+                    section.classList.remove('active'); // Oculta todas las secciones
+                });
+                document.getElementById(sectionId).classList.add('active'); // Muestra la sección correspondiente
+            });
+        });
+    </script>
+</body>
+</html>
